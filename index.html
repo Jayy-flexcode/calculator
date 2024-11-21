@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Stylesheet.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <main>
+        <section class="calculator">
+
+            <div class="calc-items">
+
+
+                <div class="calc-screen">
+
+                    <input type="text" id="display" placeholder="0">
+                    
+                </div>
+
+
+                <div class="calc-buttons">
+
+                    <button class="special-calc-buttons" id="AC" onclick="ac()">AC</button>
+    
+                    <button class="special-calc-buttons" onclick="root()">√</button>
+    
+                    <button class="special-calc-buttons" id="^" onclick="raise()">^</button>
+    
+                    <button class="operator-buttons" id="/" onclick="divide()">/</button> <br>
+    
+                    <button class="num-buttons" id="7" onclick="seven()">7</button>
+    
+                    <button class="num-buttons" id="8" onclick="eight()">8</button>
+    
+                    <button class="num-buttons" id="9" onclick="nine()">9</button>
+    
+                    <button class="operator-buttons" id="x" onclick="multiply()">x</button><br>
+    
+                    <button class="num-buttons" id="4" onclick="four()">4</button>
+    
+                    <button class="num-buttons" id="5" onclick="five()">5</button>
+    
+                    <button class="num-buttons" id="6" onclick="six()">6</button>
+    
+                    <button class="operator-buttons" id="-" onclick="minus()">-</button><br>
+    
+                    <button class="num-buttons" id="1" onclick="one()">1</button>
+    
+                    <button class="num-buttons" id="2" onclick="two()">2</button>
+    
+                    <button class="num-buttons" id="3" onclick="three()">3</button>
+    
+                    <button class="operator-buttons" id="+" onclick="add()">+</button><br>
+    
+                    <button class="num-buttons,  long-button" id="0" onclick="zero()">0</button>
+    
+                    <button class="num-buttons" id="." onclick="decimal()">.</button>
+    
+                    <button class="operator-buttons" id="=" onclick="equals()">=</button>
+
+                </div>
+     
+            </div>
+
+        </section>
+    </main>
+
+    <script src="./Lcalculator.js"></script>
+    
+</body>
+</html>
